@@ -22,3 +22,5 @@ import pycountry
 ## Loading the dataset from GitHub
 df = pd.read_csv('https://raw.githubusercontent.com/PriyankaMath/Netfix-Data-Cleaning-EDA/main/dataset/netflix_titles.csv')
 df1=df.copy()
+## **Data Exploration**
+df.info()
